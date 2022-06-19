@@ -51,3 +51,4 @@ function addCityToDOM(id, city, description, image) {
 }
 
 export { init, fetchCities, addCityToDOM };
+ 
