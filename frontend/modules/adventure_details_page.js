@@ -86,8 +86,13 @@ function addBootstrapPhotoGallery(images) {
   nextButton.innerHTML = 
     `<span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>`
+  photoGallery.innerHTML = ''
+  photoGallery.append(carouselIndicator);
+  photoGallery.append(imageContainer);
+  photoGallery.append(prevButton);
+  photoGallery.append(nextButton);
 
-  photoGallery.replaceChildren(carouselIndicator,imageContainer,prevButton,nextButton);
+  // photoGallery.replaceChildren(carouselIndicator,imageContainer,prevButton,nextButton);
   
 
 }
